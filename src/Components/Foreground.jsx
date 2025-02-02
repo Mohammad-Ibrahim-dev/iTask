@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import Card from './card'
+import Card from './Card.jsx'
 
 function Foreground() {
   const [task, settask] = useState('')
